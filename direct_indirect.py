@@ -95,7 +95,7 @@ def analyze_traj(xyzfilei,path):
 # ======================================================
 # LOOP FOR 10,000 TRAJECTORIES AND SAVE RESULTS
 # ======================================================
-base = "/home/raj/tapish/traj_13_boltzmann"
+base = "traj_13_boltzmann"
 N = 10000
 
 results = []
