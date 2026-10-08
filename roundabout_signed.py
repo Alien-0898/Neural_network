@@ -76,7 +76,7 @@ order=[4,1,2,3,0,5]
 mech_list=[]
 
 
-idp=np.loadtxt('/home/raj/tapish/traj_13_boltzmann/NZPA_analysis/indirect_proton.txt',skiprows=1)
+idp=np.loadtxt('tapish/traj_13_boltzmann/NZPA_analysis/indirect_proton.txt',skiprows=1)
 for info in range(len(idp)):
 #for info in range(1,2):
     set=int(idp[info,0])
@@ -86,9 +86,9 @@ for info in range(len(idp)):
     n=6
     if idp[info,0]>10:
         set1=set-10
-        base=f'/home/raj/tapish/traj_13_boltzmann_2/set{set1}/{fold}'
+        base=f'traj_13_boltzmann_2/set{set1}/{fold}'
     else:
-        base=f'/home/raj/tapish/traj_13_boltzmann/set{set}/{fold}'
+        base=f'traj_13_boltzmann/set{set}/{fold}'
 
     #base='/home/raj/tapish/traj_13_boltzmann/set2/4174'
 
