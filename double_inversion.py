@@ -64,7 +64,7 @@ inver_list=[]
 
 
 
-idp=np.loadtxt('/home/raj/tapish/traj_13_boltzmann/NZPA_analysis/direct_sn2.txt',skiprows=1)
+idp=np.loadtxt('traj_13_boltzmann/NZPA_analysis/direct_sn2.txt',skiprows=1)
 #for set in range(1,16):
     #for fold in range(1,10001):
 for info in range(len(idp)):
